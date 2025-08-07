@@ -4,5 +4,5 @@ Collection of ML models written in Python
 
 ## Index
 
-- [Perceptron](perceptron/)
-
+- [Perceptron](Perceptron/)
+- [Linear Regression](LinearRegression/)
