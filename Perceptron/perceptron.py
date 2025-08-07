@@ -41,7 +41,7 @@ class PerceptronClassifier(object):
             Training vectors, where n_samples is the number of samples and
             n_features is the number of features.
         y : array-like, shape = [n_samples]
-            Target values.
+            Target values (1 or -1).
         """
         p = np.random.permutation(len(y))
         return X[p], y[p]
@@ -55,7 +55,7 @@ class PerceptronClassifier(object):
             Training vectors, where n_samples is the number of samples and
             n_features is the number of features.
         y : array-like, shape = [n_samples]
-            Target values.
+            Target values (1 or -1).
 
         Returns
         -------
@@ -105,6 +105,6 @@ class PerceptronClassifier(object):
         Returns
         -------
         y : float
-            Target value.
+            Target value (1 or -1)
         """
         return np.where(self._net_input(X) >= 0.0, 1, -1)
