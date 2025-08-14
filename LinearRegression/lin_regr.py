@@ -1,5 +1,3 @@
-"""Linear Regression module"""
-
 import numpy as np
 
 

@@ -1,1 +1,1 @@
-# Rosenblatt's Perceptron
+# Rosenblatt's Perceptron classifier

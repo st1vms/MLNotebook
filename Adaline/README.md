@@ -1,0 +1,1 @@
+# Adaptive linear neuron (Adaline) classifier models, gradient descent and stochastic gradient descent
